@@ -4,8 +4,13 @@ if [ 1 -gt 0 ]
 fi
 
 # check if specific value is exist
-if [ -n "" ]; then
+if [ -n "" ]
+then
     echo "this should not be shown"
+elif [ -n "" ]
+    echo "not"
+else
+    echo "else!"
 fi
 
 # Check if specific value is null
