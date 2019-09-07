@@ -1,7 +1,8 @@
 #!/bin/bash
+arr=("sdfdsf sdfsdf sdf")
+arr=$(IFS=" " echo $arr)
 
-string="one two three"
-
-array=$(IFS=" " echo $string)
-
-echo $array
+for item in ${arr[@]}
+do
+    echo "${item}"
+done
