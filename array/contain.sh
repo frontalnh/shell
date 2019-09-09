@@ -4,7 +4,8 @@ contains()
 {
     list=$1
     word=$2
-    if [[ " ${list[*]} " == *" $word "* ]]; then
+    echo $([[ "${list[*]}" == *"$word"* ]])
+    if [[ "${list[*]}" == *"$word"* ]]; then
         echo "contains!"
         return 1
     fi
