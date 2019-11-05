@@ -4,6 +4,12 @@ say_hello()
 {
     echo "hello $1"
     echo "Variables: $@"
+    return 5
 }
 
-say_hello namhoon namu
+./function/module.sh
+echo $?
+
+result=$(say_hello namhoon namu)
+echo $?
+echo "end"
