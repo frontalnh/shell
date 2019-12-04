@@ -10,3 +10,5 @@ for name in ${names[@]}
 do
   echo $name
 done
+
+echo $(cat ./jq/test.json | jq '.[].name +", "+ .[].age')

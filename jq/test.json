@@ -1,7 +1,11 @@
 [
   {
     "name": "namhoon",
-    "age": 28
+    "age": "28"
   },
-  { "name": "friend", "age": 29 }
+  {
+    "name": "friend",
+    "age": "29",
+    "occupation": "lawyer"
+  }
 ]
