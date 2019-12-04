@@ -6,7 +6,7 @@ fi
 # check if specific value is exist
 if [ -n "" ]; then
     echo "this should not be shown"
-elif [ -n "" ]
+elif [ -n "" ];then
     echo "not"
 else
     echo "else!"

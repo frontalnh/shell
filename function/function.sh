@@ -13,3 +13,4 @@ echo $?
 result=$(say_hello namhoon namu)
 echo $?
 echo "end"
+echo $# $? $@

@@ -3,3 +3,4 @@
 while read line;do
   echo $line
 done < ./file/test.txt
+
