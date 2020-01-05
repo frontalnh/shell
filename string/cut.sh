@@ -9,3 +9,4 @@ echo $text
 echo $(echo $text | cut -c 1-5)
 echo $(echo $text | cut -c 5-)
 echo $(echo ${text::-4})
+echo "$(echo $text| cut -c 1)"
