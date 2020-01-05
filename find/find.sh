@@ -15,4 +15,4 @@ return 'found'
 # %T+: Date and time, separated by `+', for example `2004-04-28+22:22:05.0'.  This is a GNU  extension.
 # The  time  is given in the current timezone (which may be affected by setting the TZ 
 # environment variable).  The seconds field includes a fractional part.
-find . -printf "%T\n"
+find . -printf "%T+\n"
