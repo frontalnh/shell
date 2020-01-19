@@ -7,8 +7,8 @@ say_hello()
     return 5
 }
 
-./function/module.sh
-echo $?
+
+echo "module's output is: $(./function/module.sh)"
 
 result=$(say_hello namhoon namu)
 echo $?
