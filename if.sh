@@ -30,3 +30,23 @@ fi
 if [ "hello" = "hello" ];then
 	echo "hello is hello"
 fi
+
+if [ "one" != "two" ];then
+    echo "This is not equal!"
+fi
+
+if [[ 1 -eq 1 && 1 -gt 2 ]];then
+    echo "This can not be shown"
+fi
+
+if [ ! -e noexists.sh ];then
+    echo "File not exists"
+fi
+
+if [ -d sed ];then
+    echo "directory exists"
+fi
+
+if [[ 1 -eq 1 && (1 -gt 2 || 1 -gt 1) ]];then
+    echo "This is or operator"
+fi

@@ -18,5 +18,5 @@ if [ -z "" ]; then
 fi
 
 if [ 1 -eq 1 ]; then
-    echo "1 is 1"
+  echo "1 is 1"
 fi
