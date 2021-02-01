@@ -7,10 +7,11 @@ say_hello()
     return 5
 }
 
+echo "The result of say_hello: $(say_hello namhoon namu)"
 
 echo "module's output is: $(./function/module.sh)"
 
 result=$(say_hello namhoon namu)
-echo $?
+echo "The previous result is: ${$?}"
 echo "end"
 echo $# $? $@
