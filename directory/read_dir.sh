@@ -1,13 +1,13 @@
 #!/bin/bash
 
-dir_path="."
+dir_path="./misc"
 
 files=$(echo $dir_path/*)
 
 for file in ${files[@]};do
-  echo $file
+  echo $(echo $file | cut -c 3-)
 done
 
-for file in "."/*;do
+for file in "$dir_path"/*;do
  echo $file
 done
