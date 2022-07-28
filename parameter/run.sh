@@ -1,1 +1,1 @@
-echo $0 $1
+echo $(dirname $0)/../
